@@ -1,0 +1,31 @@
+nav.navbar.navbar-expand-sm.navbar-dark.px-sm-5{
+    background-color: var(--mainBlue);
+  }
+  
+  .nav-link{
+    color: var(--mainWhite) !important;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+  }
+  svg.MuiSvgIcon-root.shoppingcart {
+    display: inline-block;
+    color: #fff;
+    margin: -6px;
+    margin-right: 1px;
+}
+span.caartCount {
+  display: inline-block;
+  color: #fff;
+  border-radius: 46%;
+  height: 30px;
+  border: 1px solid #dc3545;
+  background-color: #dc3545;
+  width: 30px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.headerText {
+  text-align: center;
+  margin-top: 30px;
+}

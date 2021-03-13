@@ -1,0 +1,153 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+body {
+  font-family: "oswald";
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+  font-family: 'Oswald', sans-serif;
+  background-color: white;
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.product-image {
+  text-align: center;
+  margin-top: 36px;
+  padding: 16px 0 0 18px;
+}
+
+.add-to-cart{
+  padding: 9px 0px 9px 0;
+  background-color: tomato;
+  color: #fff;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.hot{
+  /* position: absolute; */
+  /* top: 40%; */
+  background: black;
+  padding: 5px 20px;
+  color: var(--mainWhite);
+}
+.new{
+  /* position: absolute; */
+  /* top: 40%; */
+  background: blue;
+  padding: 5px 20px;
+  color: var(--mainWhite);
+}
+
+.img-new{
+  width: 250px;
+}
+
+.image-cart{
+  width: 75px;
+}
+
+ul.cart-items {
+  display: flex;
+  padding: 15px;
+  list-style: none;
+}
+
+.icon-cart{
+  display: inline;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid var(--mainBlue);
+  font-size: 18px !important;
+  color: #232528;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.icon-cart-dec{
+  display: inline;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid var(--mainBlue);
+  font-size: 18px !important;
+  color: #232528;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.total{
+  font-size: 24px;
+}
+
+.delete{
+  color: red;
+  cursor: pointer;
+}
+
+.cartCount{
+  color: var(--mainDark);
+  /* font-size: 15px; */
+  border-radius: 14%;
+  background-color: white;
+  height: 34px;
+  width: 34px;
+  padding: 9px;
+  margin-left: 10px;
+}
+
+.cost-price{
+  color: orangered;
+}
+
+.shoppingcart{
+  color: #f4a135 !important;
+}
+
+nav.navbar.navbar-expand-sm.navbar-dark.px-sm-5 {
+  background-color: var(--mainBlue);
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.headerText {
+  text-align: center;
+  margin-top: 120px !important;
+}
+
+h2.text-center.mt-5.mb-5 {
+  padding-top: 70px;
+}
+
+a:hover {
+  color: #101010;
+  text-decoration: none;
+}
+
+.cart-heading{
+  border-bottom: 1px solid #101010;
+  text-align: left;
+}
+
+.qty-color{
+  color: orangered;
+  text-align: left;
+}
+
+h4{
+  text-align: right;
+}
